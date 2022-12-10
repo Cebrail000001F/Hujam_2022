@@ -15,10 +15,11 @@ namespace Player.Move
         }
         private void Start()
         {
-            MovingLimit();
+
         }
         private void Update()
         {
+            MovingLimit();
             Moves();
         }
         private void MovingLimit()
@@ -37,10 +38,6 @@ namespace Player.Move
             newPos.x = Mathf.Clamp(transform.position.x + delta.x, minBounds.x + 0.5f, maxBounds.x - 0.5f);
             newPos.y = transform.position.y + delta.y;
             transform.position = newPos;
-            //rig2d.velocity = new Vector2(_horizontal * _movingData.Speed, _vertical * _movingData.Speed);
-
-
-
         }
 
     }
