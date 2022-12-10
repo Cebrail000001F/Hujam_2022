@@ -6,6 +6,8 @@ TagManager:
   tags:
   - mermi
   - Objeler
+  - tas1
+  - tas2
   layers:
   - Default
   - TransparentFX
