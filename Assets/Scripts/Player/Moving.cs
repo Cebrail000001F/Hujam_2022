@@ -29,9 +29,16 @@ namespace Player.Move
         }
         private void Moves()
         {
+
             float _horizontal = Input.GetAxis("Horizontal");
             float _vertical = Input.GetAxis("Vertical");
-            rig2d.velocity = new Vector2(_horizontal * _movingData.Speed, _vertical * _movingData.Speed);
+            Vector2 delta = new Vector2(_horizontal, _vertical) * _movingData.Speed * Time.deltaTime;
+            Vector2 newPos = new Vector2();
+            newPos.x = Mathf.Clamp(transform.position.x + delta.x, minBounds.x + 0.5f, maxBounds.x - 0.5f);
+            newPos.y = transform.position.y + delta.y;
+            transform.position = newPos;
+            //rig2d.velocity = new Vector2(_horizontal * _movingData.Speed, _vertical * _movingData.Speed);
+
 
 
         }
