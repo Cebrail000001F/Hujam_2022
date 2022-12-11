@@ -46,7 +46,7 @@ public class SetActiveObjects : MonoBehaviour
     }
     IEnumerator BlackHoleWait()
     {
-        yield return new WaitForSeconds(1.5f); 
+        yield return new WaitForSeconds(1.5f);
         planets[5].SetActive(true);
     }
 }

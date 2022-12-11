@@ -532,8 +532,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Audio
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5522152958344396067, guid: 75ae9d1dab982354b8958b7ba2f2b4bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 75ae9d1dab982354b8958b7ba2f2b4bc, type: 3}
+--- !u!1 &1872559361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5522152958344396070, guid: 75ae9d1dab982354b8958b7ba2f2b4bc, type: 3}
+  m_PrefabInstance: {fileID: 1872559360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1872559362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872559361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956d9079c8d64e6489162b4904bd31a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1976773543
 GameObject:
   m_ObjectHideFlags: 0
