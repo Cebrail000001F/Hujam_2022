@@ -8,6 +8,7 @@ TagManager:
   - Objeler
   - tas1
   - tas2
+  - Mass
   layers:
   - Default
   - TransparentFX
