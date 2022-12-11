@@ -5,7 +5,7 @@ using UnityEngine;
 public class SetActiveObjects : MonoBehaviour
 {
     [SerializeField] private GameObject[] planets;
-    
+
 
     private void Update()
     {
@@ -16,11 +16,11 @@ public class SetActiveObjects : MonoBehaviour
         if (gameObject.transform.lossyScale.x >= 3f && gameObject.transform.localScale.x <= 3.5f)
         {
             planets[0].SetActive(true);
-           
+
             planets[1].SetActive(false);
             planets[2].SetActive(false);
             planets[3].SetActive(false);
-            
+
         }
 
         if (gameObject.transform.localScale.x >= 3.5f)
@@ -33,21 +33,10 @@ public class SetActiveObjects : MonoBehaviour
         if (gameObject.transform.localScale.x >= 10f && gameObject.transform.localScale.x <= 5f)
         {
             planets[2].SetActive(true);
-          
+
             planets[1].SetActive(false);
         }
 
     }
-    public void Moon()
-    {
 
-    }
-    public void Earth()
-    {
-
-    }
-    public void GasGaint()
-    {
-
-    }
 }
