@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CameraData
   m_EditorClassIdentifier: 
   _cameraOffset: {x: 0, y: 0, z: -10}
-  _lerpSpeed: 1
+  _lerpSpeed: 3
