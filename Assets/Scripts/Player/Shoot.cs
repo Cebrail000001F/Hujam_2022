@@ -52,7 +52,9 @@ public class Shoot : MonoBehaviour
         {
 
             GameObject instance = Instantiate(_projectTile, _ptRotateParent.transform.position, Quaternion.identity);
-            //instance.GetComponent<Rigidbody2D>().velocity = transform.right * _projectTileSpeed;
+            Vector3 scale = instance.transform.localScale;
+            //instance.GetComponent<Rigidbody2D>().velocity = transform.right * _projectTileSpeed
+            instance.transform.localScale = new Vector3(scale.x + 1f, scale.y + 1f);
             Destroy(instance, 5f);
             float timeToNextProjectile = Random.Range(0.5f, 1f);
             yield return new WaitForSeconds(timeToNextProjectile);
