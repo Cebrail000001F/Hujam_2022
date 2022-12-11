@@ -9,11 +9,20 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float _projectTileSpeed;
     [SerializeField] private float _timeBetweenFiring = 0.3f;
     [SerializeField] AudioClip fireSFX;
+    [SerializeField] private AudioPlayer _audioPlayer;
     private Coroutine _firingCoroutineControl;
     float _timer = 0;
+
+    private void Start()
+    {
+        if (GameObject.FindGameObjectWithTag("Audio") == true)
+            _audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioPlayer>();
+       
+    }
     void Update()
     {
         Fire();
+
 
     }
     private void Fire()
@@ -27,7 +36,9 @@ public class Shoot : MonoBehaviour
         {
             _firingCoroutineControl = StartCoroutine(FiringCoroutine());
             _timer = 0;
-            AudioPlayer.Instance.Play(fireSFX);
+            if (_audioPlayer != null)
+                AudioPlayer.Instance.Play(fireSFX);
+
         }
         else if (!isFiring && _firingCoroutineControl != null)
         {

@@ -12,6 +12,7 @@ namespace Player.CameraData
         private void Update()
         {
             this.transform.position = Vector3.Lerp(this.transform.position, _target.position + _cameraData.CemeraOffset, Time.deltaTime * _cameraData.LerpSpeed);
+            
 
         }
     }

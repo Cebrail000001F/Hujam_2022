@@ -9,6 +9,7 @@ TagManager:
   - tas1
   - tas2
   - dusman
+  - Audio
   layers:
   - Default
   - TransparentFX
