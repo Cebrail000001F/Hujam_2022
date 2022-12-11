@@ -7070,6 +7070,7 @@ MonoBehaviour:
   - {fileID: 320045711}
   - {fileID: 211708256}
   - {fileID: 2042741127}
+  _anim: {fileID: 329975603}
 --- !u!50 &329975601
 Rigidbody2D:
   serializedVersion: 4
