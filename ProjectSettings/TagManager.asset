@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - mermi
-  - Objeler
-  - tas1
-  - tas2
-  - dusman
-  - Audio
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -17,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 1
-  - 2
+  - 
+  - 
   - 
   - 
   - 
@@ -46,10 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer 1
-    uniqueID: 1939852881
-    locked: 0
-  - name: New Layer 2
-    uniqueID: 2005740625
     locked: 0
