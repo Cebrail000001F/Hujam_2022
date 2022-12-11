@@ -13,10 +13,6 @@ namespace Player.Move
         {
             rig2d = GetComponent<Rigidbody2D>();
         }
-        private void Start()
-        {
-
-        }
         private void Update()
         {
             MovingLimit();

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Trying Inputs.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/OyunBaslamaSahnesi.unity
+    guid: fc8c943c97a444b40bc6aef5c401366c
+  - enabled: 1
+    path: Assets/Scenes/LEVEL1.unity
+    guid: f05e9d9864accdf4c8a07e65e27f8095
+  - enabled: 1
+    path: Assets/Scenes/OyunBitis.unity
+    guid: 7341e12a883e7ff47866bb846e114c62
   m_configObjects: {}

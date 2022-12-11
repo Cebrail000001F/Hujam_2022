@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/PlayerEatMass.cs.meta
 guid: e20b8aea54f6fdd428298dd83d9a34b2
+========
+guid: dbe89daf4f991fe4e9075a9051fb1dac
+>>>>>>>> f2fac2334998d1d5fecb449f74aa3ee116413f6c:Assets/Scripts/Menu/AudioPlayer.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
