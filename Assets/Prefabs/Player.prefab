@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3364605813428937148}
   - component: {fileID: 3364605813428937146}
   - component: {fileID: 3364605813428937147}
+  - component: {fileID: 3698006534923650071}
   - component: {fileID: 3364605813428937144}
   m_Layer: 0
   m_Name: Player
@@ -121,6 +122,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movingData: {fileID: 11400000, guid: ff0404aac18167844bac0c70845bffd9, type: 2}
+--- !u!114 &3698006534923650071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3364605813428937151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3ba771f7aaf284e95b6ed61b2ba886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3364605813428937144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,4 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bd1eca9e39027d42bd2fbd64e74855c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectTile: {fileID: 0}
+  _projectTile: {fileID: 0}
+  _ptRotateParent: {fileID: 0}
+  _projectTileSpeed: 0
+  _timeBetweenFiring: 0.3
+  fireSFX: {fileID: 0}
