@@ -6,10 +6,13 @@ using PlayerMove;
 public class SetActiveObjects : MonoBehaviour
 {
     [SerializeField] private GameObject[] planets;
+    [SerializeField] private Animator _anim;
     PlayerMove.PlayerMove playerMove;
     Shoot shoot;
+
     private void Start()
     {
+
         shoot = GetComponent<Shoot>();
         playerMove = GetComponent<PlayerMove.PlayerMove>();
     }
@@ -46,7 +49,9 @@ public class SetActiveObjects : MonoBehaviour
     }
     IEnumerator BlackHoleWait()
     {
+        _anim.SetTrigger("explosion");
         yield return new WaitForSeconds(1.5f);
         planets[5].SetActive(true);
+
     }
 }
