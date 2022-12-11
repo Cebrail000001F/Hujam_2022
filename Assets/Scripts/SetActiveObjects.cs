@@ -16,7 +16,7 @@ public class SetActiveObjects : MonoBehaviour
         if (gameObject.transform.lossyScale.x >= 3f && gameObject.transform.localScale.x <= 3.5f)
         {
             planets[0].SetActive(true);
-            print("3f oldum");
+           
             planets[1].SetActive(false);
             planets[2].SetActive(false);
             planets[3].SetActive(false);
