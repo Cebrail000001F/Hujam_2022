@@ -282,6 +282,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539792, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539795, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_text
+      value: GAME OVER
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539795, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_fontSize
+      value: 58.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 580679226020539795, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cf13f8ab42d180249927b8ba095afbd3, type: 2}
+    - target: {fileID: 580679226020539795, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2930465848454871289, guid: cf13f8ab42d180249927b8ba095afbd3, type: 2}
     - target: {fileID: 580679226227293928, guid: 92a0ac27c8b328144b280adf4e72ab1b, type: 3}
       propertyPath: m_Name
       value: Kaybettin

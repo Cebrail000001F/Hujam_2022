@@ -5,34 +5,49 @@ using UnityEngine;
 public class SetActiveObjects : MonoBehaviour
 {
     [SerializeField] private GameObject[] planets;
-    private void Moon()
+    
+
+    private void Update()
     {
-        if (gameObject.transform.localScale.x == 10f && gameObject.transform.localScale.y == 10f)
+
+    }
+    public void ChangesSprite()
+    {
+        if (gameObject.transform.lossyScale.x >= 3f && gameObject.transform.localScale.x <= 3.5f)
+        {
             planets[0].SetActive(true);
-        else
-        {
+            print("3f oldum");
             planets[1].SetActive(false);
             planets[2].SetActive(false);
+            planets[3].SetActive(false);
+            
         }
-    }
-    private void Earth()
-    {
-        if (gameObject.transform.localScale.x == 20f && gameObject.transform.localScale.y == 20f)
+
+        if (gameObject.transform.localScale.x >= 3.5f)
+        {
             planets[1].SetActive(true);
-        else
-        {
             planets[0].SetActive(false);
             planets[2].SetActive(false);
         }
-    }
-    private void GasGaint()
-    {
-        if (gameObject.transform.localScale.x == 30f && gameObject.transform.localScale.y == 30f)
-            planets[2].SetActive(true);
-        else
+
+        if (gameObject.transform.localScale.x >= 10f && gameObject.transform.localScale.x <= 5f)
         {
-            planets[0].SetActive(false);
+            planets[2].SetActive(true);
+          
             planets[1].SetActive(false);
         }
+
+    }
+    public void Moon()
+    {
+
+    }
+    public void Earth()
+    {
+
+    }
+    public void GasGaint()
+    {
+
     }
 }
