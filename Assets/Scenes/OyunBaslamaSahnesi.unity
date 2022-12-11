@@ -199,6 +199,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5916823975153062558, guid: 6ec47904841ae1e42911e01bccc67c90, type: 3}
+      propertyPath: m_Text
+      value: 'Oyuna Basla
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916823975153062558, guid: 6ec47904841ae1e42911e01bccc67c90, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 4a5b774c932f52b4291efd701d389b9e, type: 3}
@@ -592,7 +598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME NAME
+  m_text: ShapeShifter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cf13f8ab42d180249927b8ba095afbd3, type: 2}
   m_sharedMaterial: {fileID: 2930465848454871289, guid: cf13f8ab42d180249927b8ba095afbd3, type: 2}
