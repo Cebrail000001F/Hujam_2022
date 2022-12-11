@@ -6968,7 +6968,7 @@ SpriteRenderer:
   m_Size: {x: 0.41, y: 0.43}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &330678571
@@ -12969,9 +12969,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00782299, y: 0}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 0.742177
 --- !u!1 &668607454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2481236226563616586, guid: 5345f7df4877ba24a86988955ecc376f, type: 3}
