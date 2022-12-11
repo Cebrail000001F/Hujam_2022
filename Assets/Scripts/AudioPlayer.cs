@@ -34,9 +34,11 @@ public class AudioPlayer : MonoBehaviour
     }
     public void Play(AudioClip clip)
     {
+      
+            _audioSource.clip = clip;
+            _audioSource.Play();
+       
 
-        _audioSource.clip = clip;
-        _audioSource.Play();
     }
 }
 

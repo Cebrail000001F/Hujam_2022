@@ -31,7 +31,7 @@ namespace Player.Move
             float _vertical = Input.GetAxis("Vertical");
             Vector2 delta = new Vector2(_horizontal, _vertical) * _movingData.Speed * Time.deltaTime;
             Vector2 newPos = new Vector2();
-            newPos.x = Mathf.Clamp(transform.position.x + delta.x, minBounds.x + 0.5f, maxBounds.x - 0.5f);
+            newPos.x = transform.position.x + delta.x;
             newPos.y = transform.position.y + delta.y;
             transform.position = newPos;
         }
