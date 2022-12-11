@@ -1,21 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class ObjeHareket : MonoBehaviour
 {
-    Rigidbody2D Obje;
-    [SerializeField] float hiz;
-    [SerializeField] float hareketx;
-    [SerializeField] float harekety;
+    Rigidbody2D rb;
+    [SerializeField] private float hiz;
+    float degerx;
+    float degery;
     void Start()
     {
-        Obje= GetComponent<Rigidbody2D>();
-        
+        rb= GetComponent<Rigidbody2D>();
+        degerx = Random.Range(-5, 5);
+        degery = Random.Range(-5, 5);
     }
-
     void Update()
     {
-        Obje.velocity = new Vector2(hareketx * hiz, harekety * hiz);
+        rb.velocity = new Vector2(degerx* hiz, degery*hiz);
     }
 }

@@ -19,8 +19,6 @@ public class Parcalanma : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-           
             for (int i = 0; i < altObjeler.Length; i++)
             {
             if (collision.gameObject.CompareTag("mermi"))
@@ -29,9 +27,5 @@ public class Parcalanma : MonoBehaviour
                 altObjeler[i].SetActive(true);
             }
             }
-        
     }
-    void Obje_()
-    {
-    } 
 }

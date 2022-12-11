@@ -30,7 +30,6 @@ public class Mermi : MonoBehaviour
                 mermiler[i].SetActive(true);
                 break;
             }
-
         }
     }
 }
