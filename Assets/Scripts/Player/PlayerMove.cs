@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Player.Move
+using Player.Move;
+namespace PlayerMove
 {
 
-    public class Moving : MonoBehaviour
+    public class PlayerMove : MonoBehaviour
     {
         [SerializeField] private MovingData _movingData;
         Vector2 minBounds, maxBounds;
