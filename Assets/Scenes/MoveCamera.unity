@@ -382,8 +382,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: 1
 --- !u!58 &342476506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -470,7 +468,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &342476509
@@ -536,8 +534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: 1
-  harekety: 1
 --- !u!58 &625999095
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -624,7 +620,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &654187791
@@ -725,8 +721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &766436783
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -813,9 +807,150 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &923420273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 923420275}
+  - component: {fileID: 923420274}
+  - component: {fileID: 923420276}
+  m_Layer: 0
+  m_Name: OtherSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &923420274
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923420273}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &923420275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923420273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &923420276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923420273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe89daf4f991fe4e9075a9051fb1dac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &934305501
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,8 +999,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &934305504
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -952,7 +1085,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1187072919
@@ -988,8 +1121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: 1
 --- !u!58 &1187072921
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1076,7 +1207,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1187072924
@@ -1127,8 +1258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: 1
-  harekety: 1
 --- !u!58 &1259020952
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1215,7 +1344,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1259020955
@@ -1343,6 +1472,7 @@ GameObject:
   - component: {fileID: 1491795390}
   - component: {fileID: 1491795389}
   - component: {fileID: 1491795392}
+  - component: {fileID: 1491795393}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1431,6 +1561,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cameraData: {fileID: 11400000, guid: afd970b591e52f84091d967961c4bbfa, type: 2}
   _target: {fileID: 708200403}
+--- !u!82 &1491795393
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491795388}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 66521155e36981048a5de86d5da77fe0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1598085526
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,8 +1705,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: 1
 --- !u!58 &1598085529
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1567,7 +1791,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1665020128
@@ -1603,8 +1827,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &1665020130
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1691,7 +1913,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1665020133
@@ -1757,8 +1979,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &1678317528
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1845,7 +2065,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1861408227
@@ -1994,8 +2214,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: 1
 --- !u!58 &1943783959
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2082,7 +2300,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1959289019
@@ -2118,8 +2336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &1959289021
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2206,7 +2422,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1959289024
@@ -2272,8 +2488,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: -1
 --- !u!58 &2082080395
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2360,7 +2574,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2083566329
@@ -2411,8 +2625,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: -1
-  harekety: 1
 --- !u!58 &2083566332
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2499,7 +2711,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2093423895
@@ -2550,8 +2762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 0.4
-  hareketx: 1
-  harekety: 1
 --- !u!58 &2093423898
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2638,7 +2848,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &1469967589092440377
@@ -2709,6 +2919,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3364605813428937144, guid: a0b7a63140187564da820a98aa2583cf, type: 3}
+      propertyPath: fireSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: aad6d72d10272464282147d871344c74, type: 3}
     - target: {fileID: 3364605813428937144, guid: a0b7a63140187564da820a98aa2583cf, type: 3}
       propertyPath: projectTile
       value: 

@@ -8,6 +8,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform _ptRotateParent;
     [SerializeField] private float _projectTileSpeed;
     [SerializeField] private float _timeBetweenFiring = 0.3f;
+    [SerializeField] AudioClip fireSFX;
     private Coroutine _firingCoroutineControl;
     float _timer = 0;
     void Update()
@@ -26,6 +27,7 @@ public class Shoot : MonoBehaviour
         {
             _firingCoroutineControl = StartCoroutine(FiringCoroutine());
             _timer = 0;
+            AudioPlayer.Instance.Play(fireSFX);
         }
         else if (!isFiring && _firingCoroutineControl != null)
         {
