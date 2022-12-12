@@ -29,7 +29,7 @@ public class Kaybettin : MonoBehaviour
                 }
                 if (gameObject.transform.localScale.x > dusman[i].transform.localScale.x)
                 {
-                    _camera.orthographicSize += 0.2f;
+                    _camera.orthographicSize += 0.3f;
                     dusman[i].SetActive(false);
                     gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x + dusman[i].transform.localScale.x * 0.2f, gameObject.transform.localScale.y + dusman[i].transform.localScale.y * 0.2f);
                     _setActiveObjects.ChangesSprite();

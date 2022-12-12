@@ -7,6 +7,7 @@ public class SetActiveObjects : MonoBehaviour
 {
     [SerializeField] private GameObject[] planets;
     [SerializeField] private Animator _anim;
+    [SerializeField] Transform _bulletTransform;
     PlayerMove.PlayerMove playerMove;
     Shoot shoot;
 
@@ -22,7 +23,7 @@ public class SetActiveObjects : MonoBehaviour
         {
             planets[0].SetActive(false);
             planets[1].SetActive(true);
-            print("3f oldum");
+            
         }
         if (gameObject.transform.localScale.x >= 3.5f && gameObject.transform.localScale.x <= 5f)
         {
