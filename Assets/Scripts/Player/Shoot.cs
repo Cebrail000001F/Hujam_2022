@@ -11,12 +11,18 @@ public class Shoot : MonoBehaviour
     [SerializeField] AudioClip fireSFX;
     private AudioPlayer _audioPlayer;
     private Coroutine _firingCoroutineControl;
+    public float scaleX = 2f, scaleY = 2f;
+
     float _timer = 0;
 
     private void Start()
     {
         if (GameObject.FindGameObjectWithTag("Audio") == true)
             _audioPlayer = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioPlayer>();
+        else
+        {
+            return;
+        }
 
     }
     void Update()
@@ -48,13 +54,14 @@ public class Shoot : MonoBehaviour
     }
     IEnumerator FiringCoroutine()
     {
+
         while (true)
         {
 
             GameObject instance = Instantiate(_projectTile, _ptRotateParent.transform.position, Quaternion.identity);
             Vector3 scale = instance.transform.localScale;
             //instance.GetComponent<Rigidbody2D>().velocity = transform.right * _projectTileSpeed
-            instance.transform.localScale = new Vector3(scale.x + 1f, scale.y + 1f);
+            instance.transform.localScale = new Vector3(scaleX, scaleY);
             Destroy(instance, 5f);
             float timeToNextProjectile = Random.Range(0.5f, 1f);
             yield return new WaitForSeconds(timeToNextProjectile);

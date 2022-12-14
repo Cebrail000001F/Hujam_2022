@@ -7405,6 +7405,8 @@ MonoBehaviour:
   _projectTileSpeed: 3
   _timeBetweenFiring: 0.3
   fireSFX: {fileID: 8300000, guid: aad6d72d10272464282147d871344c74, type: 3}
+  scaleX: 1
+  scaleY: 1
 --- !u!114 &329975597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16844,6 +16846,14 @@ PrefabInstance:
     - target: {fileID: 2481236226571622958, guid: 5345f7df4877ba24a86988955ecc376f, type: 3}
       propertyPath: m_TagString
       value: dusman
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481236226575843276, guid: 5345f7df4877ba24a86988955ecc376f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481236226575843276, guid: 5345f7df4877ba24a86988955ecc376f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2481236226575843279, guid: 5345f7df4877ba24a86988955ecc376f, type: 3}
       propertyPath: m_TagString
